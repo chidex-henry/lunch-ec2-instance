@@ -11,7 +11,7 @@ terraform {
     bucket  = "cicd-codebuild-tfstate"
     key     = "build/terraform.tfstate"
     region  = "us-east-1"
-    profile = "terraform-user"
+    profile = "programmatic-user"
     dynamodb_table = "terraform-state-lock"
   }
 }
