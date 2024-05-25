@@ -12,7 +12,7 @@ terraform {
     key     = "build/terraform.tfstate"
     region  = "us-east-1"
     profile = "programmatic-user"
-    dynamodb_table = "terraform-state-lock"
+    # dynamodb_table = "terraform-state-lock"
   }
 }
 
